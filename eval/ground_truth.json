@@ -1,0 +1,34 @@
+[
+  {
+    "question": "How can machine learning improve satellite communication link performance under heavy rainfall?",
+    "relevant": [
+      {"paper_filename": "demo_lstm_rain_fade.pdf", "must_contain": "outperforms the ITU-R P.618 baseline"},
+      {"paper_filename": "demo_xgboost_multisite.pdf", "must_contain": "improving over the ITU-R P.618 model"},
+      {"paper_filename": "demo_physics_hybrid.pdf", "must_contain": "reduces outage probability error"}
+    ]
+  },
+  {
+    "question": "Which studies evaluate generalization to unseen sites using leave-one-site-out validation?",
+    "relevant": [
+      {"paper_filename": "demo_xgboost_multisite.pdf", "must_contain": "leave-one-site-out"}
+    ]
+  },
+  {
+    "question": "Prediction intervals and uncertainty quantification for rain attenuation",
+    "relevant": [
+      {"paper_filename": "demo_physics_hybrid.pdf", "must_contain": "prediction intervals"}
+    ]
+  },
+  {
+    "question": "Does the Transformer improve over LSTM in heavy rain?",
+    "relevant": [
+      {"paper_filename": "demo_cnn_transformer.pdf", "must_contain": "worse than the LSTM"}
+    ]
+  },
+  {
+    "question": "What datasets are publicly available with open source code?",
+    "relevant": [
+      {"paper_filename": "demo_cnn_transformer.pdf", "must_contain": "publicly available"}
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+# Quality upgrades. The app runs without them (hashing embedder, lexical reranker, heuristic agents).
+sentence-transformers>=3.0   # dense embeddings + cross-encoder reranker (downloads models on first use)
+faiss-cpu>=1.8               # FAISS vector index
+anthropic>=0.40              # LLM-powered extraction/synthesis (set ANTHROPIC_API_KEY)
+langfuse>=2.50,<3            # observability (set SYNAPSE_LANGFUSE=1 + LANGFUSE_* env vars)
